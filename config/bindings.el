@@ -1,0 +1,6 @@
+(global-set-key (kbd "C-c C-b g") 'prelude-google)
+(global-set-key (kbd "C-c C-b G") 'prelude-github)
+(global-set-key (kbd "C-c C-b y") 'prelude-youtube)
+(global-set-key (kbd "C-c C-b d") 'prelude-duckduckgo)
+(global-set-key (kbd "C-c d")     'prelude-duplicate-current-line-or-region)
+(global-set-key (kbd "C-c D")     'prelude-duplicate-and-comment-current-line-or-region)

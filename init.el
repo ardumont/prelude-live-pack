@@ -9,3 +9,8 @@
 
 (live-add-pack-lib "prelude-core.el")
 (require 'prelude-core)
+
+(defun prelude-duckduckgo ()
+  "DuckDuckGo a query or region if any."
+  (interactive)
+  (prelude-search "https://duckduckgo.com/?t=lm&q=" "DuckDuckGo: "))
