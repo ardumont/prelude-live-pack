@@ -4,3 +4,4 @@
 (global-set-key (kbd "C-c C-b d") 'prelude-duckduckgo)
 (global-set-key (kbd "C-c d")     'prelude-duplicate-current-line-or-region)
 (global-set-key (kbd "C-c D")     'prelude-duplicate-and-comment-current-line-or-region)
+(global-set-key (kbd "C-c C-o")   'prelude-swap-windows)
