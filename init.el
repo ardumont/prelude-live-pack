@@ -11,6 +11,7 @@
 (require 'prelude-core)
 
 ;; define prelude-mode
+(require 'whitespace)
 
 (defvar prelude-mode-map
   (let ((map (make-sparse-keymap)))
