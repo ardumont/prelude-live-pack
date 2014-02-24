@@ -1,5 +1,5 @@
 (install-packs '(epl
-                 dash));; deps from prelude-core
+                 dash));; prelude-core deps
 
 (require 'url)
 
@@ -10,7 +10,6 @@
 (live-add-pack-lib "prelude-core.el")
 (require 'prelude-core)
 
-;; define prelude-mode
 (require 'whitespace)
 
 (defvar prelude-mode-map
