@@ -12,7 +12,7 @@
 
 (require 'whitespace)
 
-(defvar prelude-mode-map
+(defvar prelude-pack-mode-map
   (let ((map (make-sparse-keymap)))
     (define-key map (kbd "C-c o") 'prelude-open-with)
     (define-key map (kbd "C-c b g") 'prelude-google)
@@ -55,21 +55,21 @@
   "Keymap for Prelude mode.")
 
 ;; define minor mode
-(define-minor-mode prelude-mode
-  "Minor mode to consolidate Emacs Prelude extensions.
+(define-minor-mode prelude-pack-mode
+  "Minor mode to consolidate my emacs-live's prelude-pack extensions.
 
-\\{prelude-mode-map}"
+\\{prelude-pack-mode-map}"
   :lighter " Pre"
-  :keymap prelude-mode-map)
+  :keymap prelude-pack-mode-map)
 
-(define-globalized-minor-mode prelude-global-mode prelude-mode prelude-on)
+(define-globalized-minor-mode prelude-pack-global-mode prelude-pack-mode prelude-on)
 
 (defun prelude-on ()
-  "Turn on `prelude-mode'."
-  (prelude-mode +1))
+  "Turn on `prelude-pack-mode'."
+  (prelude-pack-mode +1))
 
 (defun prelude-off ()
-  "Turn off `prelude-mode'."
-  (prelude-mode -1))
+  "Turn off `prelude-pack-mode'."
+  (prelude-pack-mode -1))
 
-(prelude-global-mode)
+(prelude-pack-global-mode)
