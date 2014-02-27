@@ -62,7 +62,7 @@
   :lighter " Pre"
   :keymap prelude-pack-mode-map)
 
-(define-globalized-minor-mode prelude-pack-global-mode prelude-pack-mode prelude-on)
+(define-globalized-minor-mode global-prelude-pack-mode prelude-pack-mode prelude-on)
 
 (defun prelude-on ()
   "Turn on `prelude-pack-mode'."
@@ -72,4 +72,4 @@
   "Turn off `prelude-pack-mode'."
   (prelude-pack-mode -1))
 
-(prelude-pack-global-mode)
+(global-prelude-pack-mode)
