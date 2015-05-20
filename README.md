@@ -1,5 +1,5 @@
-prelude-pack
-============
+prelude-live-pack
+=================
 
 A pack to wrap prelude's awesomness
 
@@ -7,5 +7,5 @@ A pack to wrap prelude's awesomness
 
 In your `.emacs-live.el` add this snippet:
 ```elisp
-(live-add-packs '("/path/to/prelude-pack"))
+(live-add-packs '("/path/to/prelude-live-pack"))
 ```
