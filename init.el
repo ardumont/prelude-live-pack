@@ -1,5 +1,7 @@
-(install-packs '(epl
-                 dash));; prelude-core deps
+(require 'install-packages-pack)
+
+(install-packages-pack/install-packs '(epl
+                                       dash));; prelude-core deps
 
 (require 'url)
 
